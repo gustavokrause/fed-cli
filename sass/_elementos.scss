@@ -38,5 +38,11 @@ $cor_body: #fff; // cor do fundo do site
       @extend .rpl;
     }
 
-
+  // quebra texto em linhas (palavras grandes)
+  .wrap {
+    text-wrap: wrap;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word;
+  }
 
