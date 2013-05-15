@@ -10,6 +10,7 @@
 /* ------- PALETA DE CORES ------- */
 $cor_textos: #000; // textos de conteúdo
 $cor_body: #fff; // cor do fundo do site
+$tamanho_textos: 12; // tamanho da fonte: 12px
 
 
 /* ------- CLASSES ------- */
@@ -46,3 +47,7 @@ $cor_body: #fff; // cor do fundo do site
     word-wrap: break-word;
   }
 
+  // conversão de font-size
+  @function em($size:$tamanho_textos) {
+    @return #{$size / $tamanho_textos}em;
+  }

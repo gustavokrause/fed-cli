@@ -31,7 +31,7 @@
   @import "reset";
 
   html { font: 100% Arial, Helvetica, sans-serif; color: $cor_textos; }
-  body { background-color: $cor_body; font-size: .75em; } // tamanho da fonte: 12px
+  body { background-color: $cor_body; font-size: #{$tamanho_textos/16}em; }
 
 
   /* formulário */
