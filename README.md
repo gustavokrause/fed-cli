@@ -3,6 +3,7 @@ framework-fed
 
 Framework FED
 
+<pre>
 config.rb
 css
   fonts
@@ -39,3 +40,4 @@ sass
   templates.scss
 swf
   expressInstall.swf
+</pre>
