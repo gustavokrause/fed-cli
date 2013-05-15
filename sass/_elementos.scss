@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*
+  --------------
+  BIBLIOTECA DE CLASSES
+  --------------
+*/
+
+
+/* ------- PALETA DE CORES ------- */
+$cor_textos: #000; // textos de conteúdo
+$cor_body: #fff; // cor do fundo do site
+
+
+/* ------- CLASSES ------- */
+
+  /* alinhamentos */
+  .direita { float: right; }
+  .esquerda { float: left; }
+  p {
+    &.direita,
+    &.esquerda { float: none; }
+    &.direita { text-align: right; }
+    &.esquerda { text-align: left; }
+  }
+  .centro { text-align: center; }
+
+  // image replacement
+  .rpl { font: 0/0 a !important; color: transparent !important; }
+
+    @mixin rpl($width, $height, $image, $display: null) {
+
+      @if $display == block { display: block; }
+
+      width: $width;
+      height: $height;
+      background: image-url('#{$image}') no-repeat;
+      @extend .rpl;
+    }
+
+
+
