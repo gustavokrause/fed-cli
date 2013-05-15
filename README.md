@@ -1,7 +1,11 @@
 framework-fed
 =============
 
-Framework FED
+Framework FED.
+
+Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br.
+
+Resumo: SCSS (Compass) + Scripts locais + Aviso Chrome Frame + Responsive.
 
 <pre>
 config.rb
