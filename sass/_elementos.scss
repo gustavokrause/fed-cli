@@ -29,6 +29,8 @@ $tamanho_textos: 12; // tamanho da fonte: 12px
   // image replacement
   .rpl { font: 0/0 a !important; color: transparent !important; }
 
+
+
     @mixin rpl($width, $height, $image, $display: null) {
 
       @if $display == block { display: block; }
@@ -45,4 +47,9 @@ $tamanho_textos: 12; // tamanho da fonte: 12px
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
     word-wrap: break-word;
+  }
+
+  // conversão de font-size
+  @function em($size:$tamanho_textos) {
+    @return #{$size / $tamanho_textos}em;
   }

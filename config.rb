@@ -5,5 +5,5 @@ images_dir = "imagens"
 javascripts_dir = "js"
 fonts_dir = css_dir + "/fonts"
 
-#output_style = :compact
-output_style = :compressed
+output_style = :compact
+#output_style = :compressed

@@ -1,8 +1,7 @@
 ﻿/* TEAM */
-  Front-End Developer: <seu nome>
-  Site: http://
-  Twitter: @
-  Google+ Profile: <a href="[profile_url]?rel=author">Google</a>
+  Front-End Developer: Gustavo Krause
+  Site: http://www.krause.net.br
+  Twitter: @webkrause
   Location: Curitiba-PR
 
   <seu cargo>: <seu nome>
@@ -13,10 +12,10 @@
 
 
 /* THANKS */
-  Nomes (& URL): Coopers - http://coopers.pro/
+  Nomes (& URL): Agência CASA - http://www.casa.ag/
 
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Frameworks FED v4, SASS, Compass, Modernizr, jQuery, Selectivizr, SWFObject, Chrome Frame
-  Software: Sublime Text 2, Photoshop, Versions, CodeKit, VMWare Fusion
+  Components: Frameworks FED v3.1, LESS, Modernizr, jQuery, Selectivizr, SWFObject, Chrome Frame
+  Software: Sublime, Photoshop, VirtualBox
