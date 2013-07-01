@@ -2,13 +2,16 @@
 
 /*
   --------------
-  TABLET - Dispositivos com largura de 480px ate 768px
+  TABLET - Dispositivos com largura de 640px ate 1024px
   --------------
 */
 
 
 @import "elementos"; // biblioteca de classes com estilos gerais
 @import "tablet-templates.css"; // estilos específicos dos templates
+
+
+//@media only screen and (orientation: portrait) {}
 
 
 /*
@@ -55,5 +58,4 @@
 /* ------- RODAPÉ ------- */
 .rodape {
 } // .rodape
-
 

@@ -2,13 +2,16 @@
 
 /*
   --------------
-  MOBILE - Dispositivos com largura de 320px ate 479px
+  MOBILE - Dispositivos com largura ate 640px
   --------------
 */
 
 
 @import "elementos"; // biblioteca de classes com estilos gerais
 @import "mobile-templates.css"; // estilos específicos dos templates
+
+
+//@media only screen and (orientation: portrait) {}
 
 
 /*
@@ -39,7 +42,7 @@
 
 
 /* ------- CLASSES ------- */
-.limites { padding: 10px; }
+.limites {}
 
 
 /*
