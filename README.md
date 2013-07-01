@@ -1,28 +1,18 @@
 framework-fed
 =============
 
-Framework FED.
+Framework FED: v4.1
 
 Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br.
 
-Resumo: SCSS (Compass) + Scripts locais + Aviso Chrome Frame + Responsive.
+Resumo: SCSS (Compass) + Scripts locais + Responsive.
 
 <pre>
-config.rb
 css
   fonts
-estrutura.txt
-form.html
-humans.txt
 imagens
-  chrome-frame-bg.jpg
-  chrome-frame-botao.png
-  chrome-frame-fechar.png
-  chrome-frame-logo.png
-index.html
 js
   libs
-    cfinstall.js
     jquery-migrate.js
     jquery.js
     modernizr-custom.js
@@ -32,6 +22,7 @@ js
 sass
   _elementos.scss
   _fontes.scss
+  _form.scss
   _reset.scss
   desktop-templates.scss
   desktop.scss
@@ -44,4 +35,9 @@ sass
   templates.scss
 swf
   expressInstall.swf
+config.rb
+estrutura.txt
+form.html
+humans.txt
+index.html
 </pre>
