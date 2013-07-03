@@ -60,3 +60,28 @@ $tamanho_textos: 12; // tamanho da fonte: 12px
     -o-transition: all .2s ease;
     transition: all .2s ease;
   }
+
+  // clear fix
+  .cf { 
+    &:before, &:after { content: " "; display: table; }
+    &:after { clear: both; }
+    *zoom: 1;
+  }
+
+  // reset espaço inline-block;
+  // container
+  .dibc {
+    font-size: 0px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+  }
+    // item
+    .dibi {
+      *display: inline;
+      display: inline-block;
+      letter-spacing: normal;
+      word-spacing: normal;
+      vertical-align: top;
+      font-size: #{$tamanho_textos + 'px'};
+    }
+
