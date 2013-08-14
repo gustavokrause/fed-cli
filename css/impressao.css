@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* -------------- VERSÃO PARA IMPRESSÃO --------------
+*/
+/* -------------- BIBLIOTECA DE CLASSES --------------
+*/
+/* ------- PALETA DE CORES ------- */
+/* ------- CLASSES E MIXINS ------- */
+/* -------------- ELEMENTOS, ESTRUTURA e CLASSES --------------
+*/
+/* ------- ELEMENTOS ------- */
+/* line 21, ../sass/impressao.scss */
+* { background: transparent !important; text-shadow: none !important; color: black !important; }
+
+/* line 22, ../sass/impressao.scss */
+body { font-size: 11pt; }
+
+/* line 24, ../sass/impressao.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+@page { margin: 0.5cm; }
+
+/* line 26, ../sass/impressao.scss */
+p, h2, h3 { orphans: 3; widows: 3; }
+
+/* line 27, ../sass/impressao.scss */
+h2, h3 { page-break-after: avoid; }
+
+/* line 28, ../sass/impressao.scss */
+form { display: none; }
+
+/* line 29, ../sass/impressao.scss */
+iframe, img { border: 0; }
+
+/* line 30, ../sass/impressao.scss */
+img { max-width: 100% !important; }
+
+/* line 31, ../sass/impressao.scss */
+table { border: 1px solid #000; border-collapse: collapse; }
+
+/* line 32, ../sass/impressao.scss */
+a { text-decoration: underline; }
+
+/* line 33, ../sass/impressao.scss */
+a[href]:after { content: " (" attr(href) ")"; }
+
+/* line 34, ../sass/impressao.scss */
+abbr[title]:after { content: " (" attr(title) ")"; }
+
+/* ------- ESTRUTURA ------- */
+/* line 38, ../sass/impressao.scss */
+.topo, .coluna1, .rodape { display: none; }
+
+/* ------- CLASSES ------- */
+/* line 42, ../sass/impressao.scss */
+.paginacao, .popup { display: none; }

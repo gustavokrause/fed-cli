@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import url(desktop-templates.css);
+/* -------------- DESKTOP - Dispositivos com largura a partir de 1024px --------------
+*/
+/* -------------- BIBLIOTECA DE CLASSES --------------
+*/
+/* ------- PALETA DE CORES ------- */
+/* ------- CLASSES E MIXINS ------- */
+/* -------------- ELEMENTOS e CLASSES --------------
+*/
+/* ------- CLASSES ------- */
+/* line 22, ../sass/desktop.scss */
+.limites { width: 980px; margin: 0 auto; }
+
+/* -------------- ESTRUTURA --------------
+*/
+/* ------- TOPO ------- */
+/* ------- CONTEÚDO ------- */
+/* line 38, ../sass/desktop.scss */
+.conteudo { /* coluna1 */ /* coluna2 */ }
+
+/* ------- RODAPÉ ------- */
