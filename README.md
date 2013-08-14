@@ -25,7 +25,7 @@ js
   main.js
 sass
   _elementos.scss
-  _fontes.scss
+  _fontes.scss(?)
   _form.scss
   _reset.scss
   desktop-templates.scss
@@ -47,13 +47,14 @@ index.html
 </pre>
 
 
-* Ajustes
+Ajustes
 
 1. Substuição de classes para mixin no _elementos.scss
 
 Motivo: As classes não são possíveis estender (@extend) dentro dos media query.
 
 
+<pre>
 /* ------- MIXINS ------- */
 
 @mixin txthide { ...
@@ -68,3 +69,4 @@ Motivo: As classes não são possíveis estender (@extend) dentro dos media quer
 
 @mixin dibc { ...
 @mixin dibi { ...
+</pre>
