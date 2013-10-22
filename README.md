@@ -2,17 +2,20 @@ framework-fed
 =============
 
 Framework FED: v4.5 e v5
+--------------
 
-v4.5 - suporte ao IE8
-  jquery v1
-  jquery-migrate
-  innershiv (p/ abrepopup)
-  modernizr
-  selectivizr
+**v4.5 - *suporte ao IE8***
 
-v5 - sem suporte ao IE8
-  jquery v2
-  removido os js de suporte ao IE8
+- jquery v1
+- jquery-migrate
+- innershiv (p/ abrepopup)
+- modernizr
+- selectivizr
+
+**v5 - *sem suporte ao IE8***
+
+- jquery v2
+- removido os arquivos de suporte ao IE8
 
 
 Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br.
@@ -39,9 +42,10 @@ js
     jquery.js
     swfobject.js (?)
       // arquivos v4.5
-      jquery-migrate.js
-      modernizr-custom.js
-      selectivizr.js
+        jquery-migrate.js
+        modernizr-custom.js
+        selectivizr.js
+        innershiv.js
   main.js
 scss
   _elementos.scss
@@ -69,6 +73,7 @@ humans.txt
 
 
 Ajustes
+--------------
 
 1. organização dos media query para tablet
 2. variável $degub (mostra o media query)
@@ -76,12 +81,16 @@ Ajustes
 4. add do mixin grad (contribuição do Yeshua)
 
 
-Ajustes (histórico)
+**(histórico)**
 
 1. Substuição de classes para mixin no _elementos.scss
 
 Motivo: As classes não são possíveis estender (@extend) dentro dos media query.
 
+
+MIXINS
+--------------
+veja no arquivo: _elementos.scss
 
 <pre>
 /* ------- MIXINS ------- */
