@@ -1,13 +1,24 @@
 framework-fed
 =============
 
-Framework FED: v4.2
+Framework FED: v4.5 e v5
+
+v4.5 - suporte ao IE8
+  jquery v1
+  jquery-migrate
+  innershiv (p/ abrepopup)
+  modernizr
+  selectivizr
+
+v5 - sem suporte ao IE8
+  jquery v2
+  removido os js de suporte ao IE8
+
 
 Mais informações sobre ele em: www.webstandards.blog.br e www.frontenddevelopment.com.br.
 
 Resumo: SCSS (Compass) + Scripts locais + Responsive.
 
-Suporte até o IE8.
 
 (?) - opcional
 
@@ -15,15 +26,24 @@ Suporte até o IE8.
 css
   fonts(?)
 imagens
+  imagem-usuario.png
 js
   libs
-    jquery-migrate.js
+    bxslider
+      images
+        bx_loader.gif
+        controls.png
+      bxslider.js
+      bxslider.css
+    abrepopups.js
     jquery.js
-    modernizr-custom.js
-    selectivizr.js
-    swfobject.js(?)
+    swfobject.js (?)
+      // arquivos v4.5
+      jquery-migrate.js
+      modernizr-custom.js
+      selectivizr.js
   main.js
-sass
+scss
   _elementos.scss
   _fontes.scss(?)
   _form.scss
@@ -40,14 +60,23 @@ sass
 swf(?)
   expressInstall.swf(?)
 config.rb
-estrutura.txt
 form.html
-humans.txt
+galeria.html
 index.html
+estrutura.txt
+humans.txt
 </pre>
 
 
 Ajustes
+
+1. organização dos media query para tablet
+2. variável $degub (mostra o media query)
+3. ajuste mixin de image replacement
+4. add do mixin grad (contribuição do Yeshua)
+
+
+Ajustes (histórico)
 
 1. Substuição de classes para mixin no _elementos.scss
 
@@ -57,9 +86,9 @@ Motivo: As classes não são possíveis estender (@extend) dentro dos media quer
 <pre>
 /* ------- MIXINS ------- */
 
-@mixin txthide { ...
+@mixin th { ...
 
-@mixin rp($width, $height, $image, $display: null, $rpl: null) { ...
+@mixin rp($image, $rpl:false, $width:false, $height:false, $display:false) {
 
 @mixin wrap { ...
 
@@ -69,4 +98,6 @@ Motivo: As classes não são possíveis estender (@extend) dentro dos media quer
 
 @mixin dibc { ...
 @mixin dibi { ...
+
+@mixin grad($color1,$color2) {
 </pre>

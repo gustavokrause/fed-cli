@@ -17,5 +17,5 @@
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Frameworks FED v4.2, SCSS, Compass, Modernizr, jQuery, Selectivizr, SWFObject
+  Components: Frameworks FED v4.2, SCSS, Compass, jQuery, SWFObject
   Software: Sublime, Photoshop, VMware

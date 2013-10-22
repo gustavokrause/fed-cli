@@ -18,6 +18,11 @@ $(document).ready(function(){
 */
 
 
+  // galeria
+  if($(this).has('ul.galeria').length > 0) {
+    $('ul.galeria').bxSlider();
+  }
+
 });
 
 

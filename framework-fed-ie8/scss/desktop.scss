@@ -28,6 +28,10 @@
   --------------
 */
 
+  @if $degub != false {
+    body:before { content: "desktop"; box-shadow: red 1px 1px 1px; }
+  }
+
 
 /* ------- TOPO ------- */
 .topo {

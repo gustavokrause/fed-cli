@@ -18,6 +18,7 @@
   <!--[if lt IE 9]>
     <link href="css/desktop.css?v=1" rel="stylesheet" />
     <script src="js/libs/selectivizr.js"></script>
+    <script src="js/libs/innershiv.js"></script>
   <![endif]-->
   <script src="js/libs/modernizr-custom.js"></script>
 
@@ -25,13 +26,7 @@
 <body>
 
 <!-- abre .limites -->
-<div class="limites">
-
-<!-- abre .topo -->
-  <header class="topo">
-    
-  </header>
-<!-- fecha .topo -->
+<div class="limites" role="presentation">
 
 <!-- abre .conteudo -->
   <div class="conteudo">
@@ -63,6 +58,8 @@
             <label for="email">* E-mail</label>
             <input type="email" name="email" id="email" />
             <em>exemplo@exemplo.com</em>
+            <p class="info">Texto para mais informação (p.info)</p>
+            <p class="erro">Texto para aviso de erro (p.erro)</p>
           </li>
           <li class="erro">
             <label for="telefone">Telefone</label>
@@ -129,6 +126,7 @@
           </li>
           <li class="confirmacao">
             <label for="confirmar" title="Confirmar XXXXX"><input type="checkbox" name="confirmar" id="confirmar" /> Exemplo de campo de confirmação.</label>
+            <p class="info">Texto para mais informação</p>
           </li>
         </ol>
         <button type="submit">Botão de enviar</button>
@@ -140,19 +138,13 @@
   </div>
 <!-- fecha .conteudo -->
 
-<!-- abre .rodape -->
-  <footer class="rodape">
-    
-  </footer>
-<!-- fecha .rodape -->
-
 </div>
 <!-- fecha .limites -->
 
 
 <!-- abre scripts -->
 <script src="js/libs/jquery.js"></script>
-<script src="js/libs/jquery-migrate.js"></script>
+<script src="js/libs/bxslider/bxslider.js"></script>
 <!-- <script src="js/libs/swfobject.js"></script> -->
 <script src="js/main.js"></script>
 <!-- fecha scripts -->

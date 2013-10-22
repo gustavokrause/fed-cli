@@ -51,6 +51,10 @@
   --------------
 */
 
+  @if $degub != false {
+    body:before { content: "mobile: 640"; box-shadow: black 1px 1px 1px; }
+  }
+
 
 /* ------- TOPO ------- */
 .topo {

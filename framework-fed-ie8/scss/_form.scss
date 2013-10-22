@@ -26,6 +26,8 @@
       li.confirmacao label { float: none; width: auto; padding-right: 0; text-align: left; }
       ul li label { margin-right: 0; }
 
+      p.info { float: none; width: auto; padding-right: 0; text-align: left; }
+
       /* listas internas */
       ol,
       ul,
@@ -48,6 +50,7 @@
     ol li p.erro,
     ol ol li:first-child p.erro,
     ol li.confirmacao label,
+    ol li p.info,
     button { margin-left: $largura_label + $padding_right_label; }
   } // form
 
