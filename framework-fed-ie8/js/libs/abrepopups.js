@@ -49,7 +49,7 @@ function abrePopups(url, tipo) {
       var er = /v=([^&]+)/gi;
       urlVideo = er.exec(urlVideo);
       // $('body').prepend('<aside id="ver_video" class="popup"><iframe class="youtube-player" type="text/html" width="'+ configuraPopups.larguraVideo + '" height="'+ configuraPopups.alturaVideo + '" src="http://www.youtube.com/embed/" frameborder="0"></iframe></aside>');
-      Innershiv para IEs
+      // Innershiv para IEs
       if($.browser.msie && $.browser.version < 9){
         $('body').prepend(innerShiv('<aside id="ver_video" class="popup"><iframe class="youtube-player" type="text/html" width="'+ configuraPopups.larguraVideo + '" height="'+ configuraPopups.alturaVideo + '" src="http://www.youtube.com/embed/" frameborder="0"></iframe></aside>'));
       } else {
