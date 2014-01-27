@@ -1,7 +1,8 @@
 framework-fed
 =============
 
-**info:** Para montar popups esta disponível o script "abrepopup", no momento estou testando o magnific-popup (http://dimsemenov.com/plugins/magnific-popup/) que possívelmente irei mudar e incluir os scripts no framework.
+
+**informação:** Para montar popups esta disponível o script "abrepopup", no momento estou testando o magnific-popup (http://dimsemenov.com/plugins/magnific-popup/) que possívelmente irei mudar e incluir os scripts no framework.
 
 
 Framework FED: v4.5 e v5
