@@ -27,7 +27,7 @@ $degub: false; // mostra media query
   @mixin th { font: 0/0 a !important; color: transparent !important; }
 
   // image replacement
-  @mixin rp($image, $rpl:false, $width:false, $height:false, $display:false) {
+  @mixin ir($image, $rpl:false, $width:false, $height:false, $display:false) {
 
     @if $display != false { display: block; }
 
@@ -38,7 +38,7 @@ $degub: false; // mostra media query
 
     @if $rpl != false { @include th; }
   }
-  // .imagem-replace-exemplo { @include rp('imagem-usuario.png', rpl, 50px, 50px, block); }
+  // .imagem-replace-exemplo { @include ir('imagem-usuario.png', rpl, 50px, 50px, block); }
 
 
   // quebra texto em linhas (palavras grandes)

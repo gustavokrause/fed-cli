@@ -10,7 +10,6 @@ Framework FED: v4.5 e v5
 - jquery-migrate
 - innershiv (p/ abrepopup)
 - modernizr
-- selectivizr
 
 **v5 - *sem suporte ao IE8***
 
@@ -83,7 +82,8 @@ Ajustes
 
 **(histórico)**
 
-1. Substuição de classes para mixin no _elementos.scss
+1. remoção selectivizr (não será necessário para IE8).
+2. Substuição de classes para mixin no _elementos.scss
 
 Motivo: As classes não são possíveis estender (@extend) dentro dos media query.
 
