@@ -43,9 +43,9 @@ js
       bxslider.css
     abrepopups.js
     jquery.js
+      @jquery-migrate.js (incluído dentro na v4.5)
     swfobject.js (?)
       // arquivos v4.5
-        jquery-migrate.js
         modernizr-custom.js
         selectivizr.js
         innershiv.js
@@ -75,21 +75,17 @@ humans.txt
 </pre>
 
 
-Ajustes
+Alterações
 --------------
 
-1. organização dos media query para tablet
-2. variável $degub (mostra o media query)
-3. ajuste mixin de image replacement
-4. add do mixin grad (contribuição do Yeshua)
-
-
-**(histórico)**
-
-1. remoção selectivizr (não será necessário para IE8).
-2. Substuição de classes para mixin no _elementos.scss
-
-Motivo: As classes não são possíveis estender (@extend) dentro dos media query.
+* mudança mix "rp" para "ir"
+* v4.5 - jquery.js = jQuery + jQuery Migrate
+* remoção selectivizr (não será necessário para IE8).
+* organização dos media query para tablet
+* variável $degub (mostra o media query)
+* ajuste mixin de image replacement
+* add do mixin grad (contribuição do Yeshua)
+* substuição de classes para mixin no _elementos.scss
 
 
 MIXINS
@@ -101,7 +97,7 @@ veja no arquivo: _elementos.scss
 
 @mixin th { ...
 
-@mixin rp($image, $rpl:false, $width:false, $height:false, $display:false) {
+@mixin ir($image, $rpl:false, $width:false, $height:false, $display:false) {
 
 @mixin wrap { ...
 
