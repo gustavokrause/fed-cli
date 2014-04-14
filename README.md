@@ -49,27 +49,25 @@ index.html
 		Organização dos arquivos SCSS para controle de saída do CSS
 	</caption>
 	<tr>
-		<td colspan="5">SCSS</td>
+		<td colspan="4">SCSS</td>
 	</tr>
 	<tr>
 		<th>geral.scss</th>
 		<th rowspan="2">desktop.scss</th>
 		<th rowspan="2">tablet.scss</th>
 		<th rowspan="2">mobile.scss</th>
-		<th rowspan="2">impressao.scss</th>
 	</tr>
 	<tr>
 		<td>_fontes.scss</td>
 	</tr>
 	<tr>
-		<td colspan="5">_elementos.scss</td>
+		<td colspan="4">_elementos.scss</td>
 	</tr>
 	<tr>
 		<td>bxslider.scss</td>
 		<td rowspan="5">desktop-templates.scss</td>
 		<td>tablet-templates.scss</td>
 		<td rowspan="5">mobile-templates.scss</td>
-		<td rowspan="5">-</td>
 	</tr>
 	<tr>
 		<td>magnific-popup.scss</td>
@@ -93,13 +91,11 @@ index.html
 		<th>desktop.css</th>
 		<th>tablet.css</th>
 		<th>mobile.css</th>
-		<th>impressao.css</th>
 	</tr>
 	<tr>
 		<td>templates.css</td>
 		<td>desktop-templates.css</td>
 		<td>tablet-templates.css</td>
 		<td>mobile-templates.css</td>
-		<td>-</td>
 	</tr>
 </table>
