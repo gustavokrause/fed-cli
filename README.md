@@ -42,7 +42,7 @@ index.html
 
 <table>
 	<caption>
-		Organização dos arquivos para controle de CSS
+		Organização dos arquivos SCSS para controle da saída do CSS
 	</caption>
 	<tr>
 		<td colspan="4">SCSS</td>
