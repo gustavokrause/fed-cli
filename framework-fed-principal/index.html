@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="pt-br">
+<html lang="pt-br">
 <head>
   <meta charset="utf-8" />
   <title>Titulo</title>
@@ -21,16 +21,20 @@
 
 <!-- abre .topo -->
   <header class="topo">
+    <h2>topo</h2>
   </header>
 <!-- fecha .topo -->
 
 <!-- abre .conteudo -->
   <section class="conteudo">
+    <h2>conteudo</h2>
+    <a href="#popup-exemplo" rel="subsection" title="Abrir popup exemplo"><abbr title="Magnific Popup">MFP</abbr> exemplo</a>
   </section>
 <!-- fecha .conteudo -->
 
 <!-- abre .rodape -->
   <footer class="rodape">
+    rodape
   </footer>
 <!-- fecha .rodape -->
 
@@ -38,9 +42,24 @@
 <!-- fecha .limites -->
 
 
+<!-- abre #popup-exemplo -->
+<div id="popup-exemplo" class="popup mfp-hide">
+  <section>
+    <header>
+      <h4>Exemplo</h4>
+    </header>
+    <aside class="texto">
+      <p>Exemplo de popup - magnific-popup.</p>
+    </aside>
+  </section>
+</div>
+<!-- fecha #popup-exemplo -->
+
+
 <!-- abre scripts -->
 <script src="js/libs/jquery.js"></script>
 <script src="js/libs/bxslider/bxslider.js"></script>
+<script src="js/libs/magnific-popup/magnific-popup.js"></script>
 <script src="js/main.js"></script>
 <!-- fecha scripts -->
 
