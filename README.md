@@ -30,42 +30,42 @@ Resumo: SCSS (Compass) + Scripts locais + Responsive.
 
 <pre>
 css
-  fonts(?)
+	fonts(?)
 imagens
-  imagem-usuario.png
+	imagem-usuario.png
 js
-  libs
-    bxslider
-      images
-        bx_loader.gif
-        controls.png
-      bxslider.js
-      bxslider.css
-    abrepopups.js
-    jquery.js
-      @jquery-migrate.js (incluído dentro na v4.5)
-    swfobject.js (?)
-      // arquivos v4.5
-        modernizr-custom.js
-        selectivizr.js
-        innershiv.js
-  main.js
+	libs
+		bxslider
+			images
+				bx_loader.gif
+				controls.png
+			bxslider.js
+			bxslider.css
+		abrepopups.js
+		jquery.js
+			@jquery-migrate.js (incluído dentro na v4.5)
+		swfobject.js (?)
+			// arquivos v4.5
+				modernizr-custom.js
+				selectivizr.js
+				innershiv.js
+	main.js
 scss
-  _elementos.scss
-  _fontes.scss(?)
-  _form.scss
-  _reset.scss
-  desktop-templates.scss
-  desktop.scss
-  geral.scss
-  impressao.scss
-  mobile-templates.scss
-  mobile.scss
-  tablet-templates.scss
-  tablet.scss
-  templates.scss
+	_elementos.scss
+	_fontes.scss(?)
+	_form.scss
+	_reset.scss
+	desktop-templates.scss
+	desktop.scss
+	geral.scss
+	impressao.scss
+	mobile-templates.scss
+	mobile.scss
+	tablet-templates.scss
+	tablet.scss
+	templates.scss
 swf(?)
-  expressInstall.swf(?)
+	expressInstall.swf(?)
 config.rb
 form.html
 galeria.html
