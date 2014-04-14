@@ -4,6 +4,9 @@ framework-fed
 Framework FED: v5.2
 --------------
 
+libs: [jQuery](http://www.jquery.com), [bxSlider](http://www.bxslider.com) e [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
+
+
 <pre>
 css
 	fonts
@@ -42,7 +45,7 @@ index.html
 
 <table>
 	<caption>
-		Organização dos arquivos SCSS para controle da saída do CSS
+		Organização dos arquivos SCSS para controle de saída do CSS
 	</caption>
 	<tr>
 		<td colspan="4">SCSS</td>
@@ -57,13 +60,13 @@ index.html
 		<td>_fontes.scss</td>
 	</tr>
 	<tr>
-		<td colspan="4" style="text-align: center;">_elementos.scss</td>
+		<td colspan="4">_elementos.scss</td>
 	</tr>
 	<tr>
 		<td>bxslider.scss</td>
-		<td rowspan="5" style="vertical-align: top;">desktop-templates.scss</td>
+		<td rowspan="5">desktop-templates.scss</td>
 		<td>tablet-templates.scss</td>
-		<td rowspan="5" style="vertical-align: top;">mobile-templates.scss</td>
+		<td rowspan="5">mobile-templates.scss</td>
 	</tr>
 	<tr>
 		<td>magnific-popup.scss</td>
@@ -71,7 +74,7 @@ index.html
 	</tr>
 	<tr>
 		<td>_reset.scss</td>
-		<td rowspan="3" style="vertical-align: top;">_tablet-landscape.scss</td>
+		<td rowspan="3">_tablet-landscape.scss</td>
 	</tr>
 	<tr>
 		<td>_form.scss</td>
