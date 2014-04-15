@@ -6,8 +6,6 @@ Framework FED: v5.2
 
 libs: [jQuery](http://www.jquery.com), [bxSlider](http://www.bxslider.com) e [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/).
 
-Para o IE8: modernizr - incluindo: input attr, html5shiv e ie8compat.
-
 <pre>
 css
 	fonts
