@@ -1,7 +1,7 @@
 framework-fed
 =============
 
-Framework FED: v5.2
+Arquivos
 --------------
 
 libs: [jQuery](http://www.jquery.com), [bxSlider](http://www.bxslider.com) e [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/).
@@ -40,6 +40,9 @@ estrutura.txt
 form.html
 index.html
 </pre>
+
+Controle de SCSS
+--------------
 
 <table>
 	<caption>
