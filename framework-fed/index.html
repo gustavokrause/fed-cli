@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<!--[if lte IE 8]>     <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
+<!doctype html>
+<html lang="pt-br">
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,10 +12,6 @@
 	<link href="css/tablet.css" rel="stylesheet" media="only screen and (min-width: 641px) and (max-width: 1024px)" />
 	<link href="css/desktop.css" rel="stylesheet" media="only screen and (min-width: 1025px)" />
 	<link href="css/impressao.css" rel="stylesheet" media="print" />
-	<!--[if lte IE 8]>
-	<link href="css/desktop.css" rel="stylesheet" />
-	<![endif]-->
-	<script src="js/libs/modernizr.js"></script>
 </head>
 <body id="inicial">
 
@@ -25,20 +20,28 @@
 
 <!-- abre .topo -->
 	<header class="topo">
-		<h2>topo</h2>
+		<h2>header.topo</h2>
 	</header>
 <!-- fecha .topo -->
 
 <!-- abre .conteudo -->
 	<section class="conteudo">
-		<h2>conteudo</h2>
-		<a href="#popup-exemplo" rel="subsection" title="Abrir popup exemplo">Abre <abbr title="Magnific Popup">MFP</abbr>de exemplo</a>
+		<h2>section.conteudo</h2>
+		<p>Nesse framework é usado <a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a> e <a href="http://bxslider.com/">bxSlider</a>.</p>
+		<h3>Magnific Popup</h3>
+		<p>Esse é um link de exemplo: <a href="#popup-exemplo" rel="subsection" title="Abrir popup exemplo">Magnific Popup</a></p>
+		<h3>bxSlider</h3>
+		<ul class="galeria">
+			<li><img src="imagens/imagem-usuario.png" alt="user"></li>
+			<li><img src="imagens/imagem-usuario.png" alt="user"></li>
+			<li><img src="imagens/imagem-usuario.png" alt="user"></li>
+		</ul>
 	</section>
 <!-- fecha .conteudo -->
 
 <!-- abre .rodape -->
 	<footer class="rodape">
-		rodape
+		footer.rodape
 	</footer>
 <!-- fecha .rodape -->
 

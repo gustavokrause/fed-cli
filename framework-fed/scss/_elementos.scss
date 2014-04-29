@@ -61,6 +61,9 @@ $degub: true; // mostra media query
 		transition: $propriedades $tempo ease;
 	}
 
+	// @include transtion('opacity,color,background-color',5s);
+	// @include transtion;
+
 
 	// clear fix
 	@mixin cf {

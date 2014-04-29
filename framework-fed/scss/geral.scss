@@ -16,7 +16,7 @@
 @import "fontes"; // estilos web fonts
 @import "elementos"; // biblioteca de classes com estilos gerais
 // libs js
-@import "../js/libs/bxslider/bxslider.scss"; // estilos bxslider
+@import "../js/libs/bxslider/bxslider.css"; // estilos bxslider
 @import "../js/libs/magnific-popup/magnific-popup.scss"; // estilos magnific-popup
 // templates
 @import "templates.css"; // estilos específicos dos templates
@@ -45,10 +45,9 @@
 
 	h1, h2, h3 {}
 
-
 	// debug
 	@if $degub != false {
-		body:before { position: absolute; right: 0; bottom: 0; z-index: 11; padding: 5px; box-shadow: rgba(255,0,0,.3) -1px -1px 1px; background: #fff; }
+		body:before { position: absolute; right: 0; bottom: 0; z-index: 11; padding: 5px; box-shadow: rgba(255,0,0,.3) -1px -1px 1px; background: rgba(255,255,255,.5); font-size: em(16); font-family: monospace; }
 	}
 
 
@@ -94,7 +93,11 @@
 	} // .paginacao
 
 	// galeria
-	// .bx-wrapper { border: 1px solid red; }
+	.bx-wrapper {
+		border: 1px solid red;
+		// reset bxslider
+		.bx-viewport { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: none; left: auto; background: transparent; }
+	}
 
 
 /*
