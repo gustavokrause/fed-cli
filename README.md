@@ -64,7 +64,7 @@ Controle de SCSS
 		<td colspan="4">_elementos.scss</td>
 	</tr>
 	<tr>
-		<td>bxslider.scss</td>
+		<td>bxslider (css)</td>
 		<td rowspan="5">desktop-templates.scss</td>
 		<td>tablet-templates.scss</td>
 		<td rowspan="5">mobile-templates.scss</td>
@@ -84,7 +84,7 @@ Controle de SCSS
 		<td>templates.scss</td>
 	</tr>
 	<tr>
-		<td colspan="4">OUTPUT CSS</td>
+		<td colspan="4">OUTPUT de CSS</td>
 	</tr>
 	<tr>
 		<th>geral.css</th>
