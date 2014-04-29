@@ -38,7 +38,6 @@ scss
 config.rb
 estrutura.txt
 form.html
-galeria.html
 index.html
 </pre>
 
