@@ -2,25 +2,25 @@
 
 /*
 	--------------
-	MOBILE - Dispositivos com largura ate 640px
+	MOBILE - Screens until 640px
 	--------------
 */
 
 
-@import "elementos"; // biblioteca de classes com estilos gerais
-@import "mobile-templates.css"; // estilos específicos dos templates
+@import "elements"; // class library with main styles
+@import "desktop-pages.css"; // styles specific the pages
 
 
 /*
 	--------------
-	ELEMENTOS e CLASSES
+	ELEMENTS and CLASS
 	--------------
 */
 
 
-/* ------- ELEMENTOS ------- */
+/* ------- ELEMENTS ------- */
 
-	/* formulário */
+	/* form */
 	form {
 		ol {
 			/* label */
@@ -33,18 +33,18 @@
 			li.confirmacao label { margin-left: 0; }
 		} // ol
 
-		#instrucoes_formulario,
+		#form-instructions,
 		button { margin-left: 0; }
 	} // form
 
 
-/* ------- CLASSES ------- */
-.limites {}
+/* ------- CLASS ------- */
+.wrapper {}
 
 
 /*
 	--------------
-	ESTRUTURA
+	STRUCTURE
 	--------------
 */
 
@@ -53,27 +53,26 @@
 	}
 
 
-/* ------- TOPO ------- */
-.topo {
-} // .topo
+/* ------- PAGE HEADER ------- */
+.page-header {
+} // .page-header
 
 
-/* ------- CONTEÚDO ------- */
-.conteudo {
+/* ------- PAGE CONTENT ------- */
+.page-content {
 
-	/* coluna1 */
-	.coluna1 {
-	} // .coluna1
+	/* main-content */
+	.main-content {
+	} // .main-content
 
-	/* coluna2 */
-	.coluna2 {
-	} //.coluna2
+	/* sidebar */
+	.sidebar {
+	} //.sidebar
 
-} // .conteudo
+} // .page-content
 
 
-/* ------- RODAPÉ ------- */
-.rodape {
-} // .rodape
-
+/* ------- PAGE FOOTER ------- */
+.page-footer {
+} // .page-footer
 

@@ -2,62 +2,62 @@
 
 /*
 	--------------
-	TABLET - Dispositivos com largura de 641px ate 1024px
+	TABLET - Screens from 641px until 1024px
 	--------------
 */
 
 
-@import "elementos"; // biblioteca de classes com estilos gerais
-@import "tablet-templates.css"; // estilos específicos dos templates
+@import "elements"; // class library with main styles
+@import "tablet-pages.css"; // styles specific the pages
 
 
 /*
 	--------------
-	ELEMENTOS e CLASSES
+	ELEMENTS and CLASS
 	--------------
 */
 
 
-/* ------- ELEMENTOS ------- */
+/* ------- ELEMENTS ------- */
 
 
 
-/* ------- CLASSES ------- */
+/* ------- CLASS ------- */
 
 
 
 /*
 	--------------
-	ESTRUTURA
+	STRUCTURE
 	--------------
 */
 
 
-/* ------- TOPO ------- */
-.topo {
-} // .topo
+/* ------- PAGE HEADER ------- */
+.page-header {
+} // .page-header
 
 
-/* ------- CONTEÚDO ------- */
-.conteudo {
+/* ------- PAGE CONTENT ------- */
+.page-content {
 
-	/* coluna1 */
-	.coluna1 {
-	} // .coluna1
+	/* main-content */
+	.main-content {
+	} // .main-content
 
-	/* coluna2 */
-	.coluna2 {
-	} //.coluna2
+	/* sidebar */
+	.sidebar {
+	} //.sidebar
 
-} // .conteudo
-
-
-/* ------- RODAPÉ ------- */
-.rodape {
-} // .rodape
+} // .page-content
 
 
+/* ------- PAGE FOOTER ------- */
+.page-footer {
+} // .page-footer
 
-// geral tablet portrait e landscape
-@import "tablet-portrait"; // telas 641 até 979
-@import "tablet-landscape"; // telas 980 até 1024
+
+
+// tablet portrait and landscape
+@import "tablet-portrait"; // screens from 641 until 979
+@import "tablet-landscape"; // screens 980 until 1024

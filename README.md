@@ -1,16 +1,16 @@
 framework-fed
 =============
 
-Arquivos
+Files
 --------------
 
-libs: [jQuery](http://www.jquery.com), [bxSlider](http://www.bxslider.com) e [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/).
+libs: [jQuery](http://www.jquery.com), [bxSlider](http://www.bxslider.com) and [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/).
 
 <pre>
 css
 	fonts
-imagens
-	imagem-usuario.png
+images
+	user.png
 js
 	libs
 		bxslider
@@ -20,54 +20,54 @@ js
 		jquery.js
 	main.js
 scss
-	_elementos.scss
-	_fontes.scss
+	_elements.scss
+	_fonts.scss
 	_form.scss
 	_reset.scss
 	_tablet-landscape.scss
 	_tablet-portrait.scss
-	desktop-templates.scss
+	desktop-pages.scss
 	desktop.scss
-	geral.scss
-	impressao.scss
-	mobile-templates.scss
+	main.scss
+	print.scss
+	mobile-pages.scss
 	mobile.scss
-	tablet-templates.scss
+	tablet-pages.scss
 	tablet.scss
-	templates.scss
+	pages.scss
 config.rb
-estrutura.txt
+DOM-structure.txt
 form.html
 index.html
 </pre>
 
-Controle de SCSS
+SCSS overview
 --------------
 
 <table>
 	<caption>
-		Organização dos arquivos SCSS para controle de saída do CSS
+		SCSS files organization to CSS output.
 	</caption>
 	<tr>
 		<td colspan="4">SCSS</td>
 	</tr>
 	<tr>
-		<th>geral.scss</th>
+		<th>main.scss</th>
 		<th rowspan="2">desktop.scss</th>
 		<th rowspan="2">tablet.scss</th>
 		<th rowspan="2">mobile.scss</th>
 	</tr>
 	<tr>
-		<td>_fontes.scss</td>
+		<td>_fonts.scss</td>
 	</tr>
 	<tr>
-		<td colspan="4">_elementos.scss</td>
+		<td colspan="4">_elements.scss</td>
 	</tr>
 	<tr>
 		<td>bxslider (css)</td>
-		<td rowspan="5">desktop-templates.scss</td>
-		<td>tablet-templates.scss</td>
-		<td rowspan="5">mobile-templates.scss</td>
+		<td rowspan="5">desktop-pages.scss</td>
+		<td>tablet-pages.scss</td>
+		<td rowspan="5">mobile-pages.scss</td>
 	</tr>
 	<tr>
 		<td>magnific-popup.scss</td>
@@ -81,21 +81,21 @@ Controle de SCSS
 		<td>_form.scss</td>
 	</tr>
 	<tr>
-		<td>templates.scss</td>
+		<td>pages.scss</td>
 	</tr>
 	<tr>
-		<td colspan="4">OUTPUT de CSS</td>
+		<td colspan="4">CSS OUTPUT</td>
 	</tr>
 	<tr>
-		<th>geral.css</th>
+		<th>main.css</th>
 		<th>desktop.css</th>
 		<th>tablet.css</th>
 		<th>mobile.css</th>
 	</tr>
 	<tr>
-		<td>templates.css</td>
-		<td>desktop-templates.css</td>
-		<td>tablet-templates.css</td>
-		<td>mobile-templates.css</td>
+		<td>pages.css</td>
+		<td>desktop-pages.css</td>
+		<td>tablet-pages.css</td>
+		<td>mobile-pages.css</td>
 	</tr>
 </table>
