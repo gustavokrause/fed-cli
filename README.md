@@ -1,10 +1,18 @@
 framework-fed
 =============
 
+### requirement
+
+Compass - http://compass-style.org/install/
+
+
+### libs
+
+[jQuery](http://www.jquery.com), [bxSlider](http://www.bxslider.com) and [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/).
+
+
 Files
 --------------
-
-libs: [jQuery](http://www.jquery.com), [bxSlider](http://www.bxslider.com) and [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/).
 
 <pre>
 css
