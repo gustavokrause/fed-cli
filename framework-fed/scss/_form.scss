@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 	form {
-		$largura_label: 100px;
-		$padding_right_label: 10px;
+		$label_width: 100px;
+		$label_padding_right: 10px;
 
-		#instrucoes-formulario { padding: 1.66em 0;
+		#form-instructions { padding: 1.66em 0;
 			p { margin-bottom: .83em;
 				&:last-child { margin-bottom: 0; }
 			}
@@ -18,39 +18,39 @@
 			/* label */
 			label,
 			p,
-			ol li:first-child label { float: left; width: $largura_label; padding-right: $padding_right_label; line-height: 2em; text-align: right; }
+			ol li:first-child label { float: left; width: $label_width; padding-right: $label_padding_right; line-height: 2em; text-align: right; }
 
-			/* label interno */
+			/* internal label */
 			li li label,
-			p.erro,
+			p.error,
 			li.confirmacao label { float: none; width: auto; padding-right: 0; text-align: left; }
 			ul li label { margin-right: 0; }
 
 			p.info { float: none; width: auto; padding-right: 0; text-align: left; }
 
-			/* listas internas */
+			/* internal lists */
 			ol,
 			ul,
 			li li { display: inline-block; vertical-align: top; }
 			li li { margin: 0 10px 0 0; padding: 0; }
 		}
 
-		/* mensagem de erro */
-		ol p.erro { display: block; }
-		p.erro,
-		ol li.erro { color: #e33; }
-		li.erro { border-radius: 3px; }
-		li.erro,
-		input.erro,
-		textarea.erro { background-color: #f7cac9; }
-		ol li li p.erro { margin-left: 0; }
+		/* error message */
+		ol p.error { display: block; }
+		p.error,
+		ol li.error { color: #e33; }
+		li.error { border-radius: 3px; }
+		li.error,
+		input.error,
+		textarea.error { background-color: #f7cac9; }
+		ol li li p.error { margin-left: 0; }
 
-		/* margin left de alinhamento com os campos */
-		#instrucoes-formulario,
-		ol li p.erro,
-		ol ol li:first-child p.erro,
-		ol li.confirmacao label,
+		/* align fields with margin left */
+		#form-instructions,
+		ol li p.error,
+		ol ol li:first-child p.error,
+		ol li.confirm label,
 		ol li p.info,
-		button { margin-left: $largura_label + $padding_right_label; }
+		button { margin-left: $label_width + $label_padding_right; }
 	} // form
 

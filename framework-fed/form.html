@@ -3,140 +3,139 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>Titulo</title>
+	<title>Form sample</title>
 	<!-- <meta name="description" content="" /> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link href="css/geral.css" rel="stylesheet" />
+	<link href="css/main.css" rel="stylesheet" />
 	<link href="css/mobile.css" rel="stylesheet" media="only screen and (max-width: 640px)" />
 	<link href="css/tablet.css" rel="stylesheet" media="only screen and (min-width: 641px) and (max-width: 1024px)" />
 	<link href="css/desktop.css" rel="stylesheet" media="only screen and (min-width: 1025px)" />
-	<link href="css/impressao.css" rel="stylesheet" media="print" />
+	<link href="css/print.css" rel="stylesheet" media="print" />
 </head>
 <body>
 
-<!-- abre .limites -->
-<div class="limites" role="presentation">
+<!-- .wrapper -->
+<div class="wrapper" role="presentation">
 
-<!-- abre .conteudo -->
-	<div class="conteudo">
+<!-- .page-content -->
+	<div class="page-content">
 
-		<h1>Padrão de formulário</h1>
+		<h1>Form standard</h1>
 
-		<!-- abre form -->
+		<!-- form -->
 		<form action="#" method="post">
 			<fieldset>
 	
-				<!-- abre #instrucoes-formulario -->
-				<aside id="instrucoes-formulario">
-					<p class="erro">Verifique os campos com asterisco e destaque vermelho.</p>
-					<!-- <p>Preencha os campos obrigatórios (*).</p> -->
+				<!-- #form-instructions -->
+				<aside id="form-instructions">
+					<p class="error">Please check the required fields.</p>
+					<!-- <p>Please fill the required fields (*).</p> -->
 				</aside>
-				<!-- fecha #instrucoes-formulario -->
+				<!-- / #form-instructions -->
 	
 				<ol>
-					<li class="erro">
-						<label for="nome">* Nome</label> <input type="text" name="nome" id="nome" /> <em>Apenas letras</em>
+					<li class="error">
+						<label for="name">* Name</label> <input type="text" name="name" id="name" /> <em>Just letters</em>
 					</li>
-					<li class="erro">
-						<label for="senha">* Senha</label>
-						<input type="password" name="senha" id="senha" />
-						<em>Ex.: Asd@123</em>
+					<li class="error">
+						<label for="password">* Password</label>
+						<input type="password" name="password" id="password" />
+						<em>e.g.: Asd@123</em>
 					</li>
 					<li>
 						<label for="email">* E-mail</label>
 						<input type="email" name="email" id="email" />
-						<em>exemplo@exemplo.com</em>
-						<p class="info">Texto para mais informação (p.info)</p>
-						<p class="erro">Texto para aviso de erro (p.erro)</p>
+						<em>example@example.com</em>
+						<p class="info">Text for more info (p.info)</p>
+						<p class="error">Text with error message (p.error)</p>
 					</li>
-					<li class="erro">
-						<label for="telefone">Telefone</label>
-						<input type="tel" name="telefone" id="telefone" />
+					<li class="error">
+						<label for="phone">Phone</label>
+						<input type="tel" name="phone" id="phone" />
 						<em>(xx) xxxx-xxxx</em>
 					</li>
-					<!-- input[type=date] é suportado apenas no Opera -->
 					<!--
 					<li>
-						<label for="data">Data</label>
-						<input type="date" name="data" id="data" />
+						<label for="date">Date</label>
+						<input type="date" name="date" id="date" />
 						<em>yyyy-mm-dd</em>
 					</li>
 					-->
 					<li>
-						<label for="site">Site</label>
-						<input type="url" name="site" id="site" value="http://www.exemplo.com/" />
-						<em>http://www.exemplo.com/</em>
+						<label for="url">URL</label>
+						<input type="url" name="url" id="url" value="http://www.example.com/" />
+						<em>http://www.example.com/</em>
 					</li>
 					<li>
-						<label>Números</label>
-						<input type="number" name="campo_numero" id="campo_numero" />
-						<em>Use apenas números</em>
+						<label for="number">Numbers</label>
+						<input type="number" name="number" id="number" />
+						<em>Enter with numbers</em>
 					</li>
 					<li>
-						<!-- <p> parágrafo com title servindo como label dos campos da listagem a seguir -->
-						<p title="Escolha alguma das opções XXXX">Opções</p>
-						<!-- <ul> listagem de campos à parte do fluxo de preenchimento -->
+						<!-- <p> use <p> instead of label when the next elements is <ul> -->
+						<p title="Choice some option">Options</p>
+						<!-- <ul> when the filling does not part of the flow -->
 						<ul>
 							<li>
-								<label title="Selecionar opção a"><input type="radio" name="#" /> Opção a</label>
+								<label title="Select option a"><input type="radio" name="#" /> Option a</label>
 							</li>
 							<li>
-								<label title="Selecionar opção b"><input type="radio" name="#" /> Opção b</label>
+								<label title="Select option b"><input type="radio" name="#" /> Option b</label>
 							</li>
 							<li>
-								<label title="Selecionar opção c"><input type="radio" name="#" /> Opção c</label>
+								<label title="Select option c"><input type="radio" name="#" /> Option c</label>
 							</li>
 						</ul>
-						<em>Mensagem de teste</em>
+						<em>test message</em>
 					</li>
 					<li>
-						<!-- <ol> listagem de campos que fazem parte do fluxo de preenchimento -->
+						<!-- <ol> when the filling does part of the flow -->
 						<ol>
-							<li class="erro">
-								<label for="campo_selecao">Campo seleção</label>
-								<select name="campo_selecao" id="campo_selecao">
-									<option>Selecione</option>
+							<li class="error">
+								<label for="field_select">Select field</label>
+								<select name="field_select" id="field_select">
+									<option>Select</option>
 								</select>
-								<p class="erro">Selecione algum xxxxx</p>
+								<p class="error">Select some option</p>
 							</li>
-							<li class="erro">
-								<label for="campo_exemplo1">Campo exemplo 1</label>
-								<input type="text" name="campo_exemplo1" id="campo_exemplo1" />
-								<p class="erro">Mensagem de erro</p>
+							<li class="error">
+								<label for="field_example1">Field example 1</label>
+								<input type="text" name="field_example1" id="field_example1" />
+								<p class="error">error message</p>
 							</li>
 						</ol>
-						<em>Ex. vários campos na mesma linha.</em>
+						<em>e.g. many fields on the same row.</em>
 					</li>
 					<li>
-						<label for="mensagem">Mensagem</label>
-						<textarea rows="3" cols="30" name="mensagem" id="mensagem"></textarea>
-						<em>Mensagem de ajuda</em>
+						<label for="message">Message</label>
+						<textarea rows="3" cols="30" name="message" id="message"></textarea>
+						<em>Help message</em>
 					</li>
-					<li class="confirmacao">
-						<label for="confirmar" title="Confirmar XXXXX"><input type="checkbox" name="confirmar" id="confirmar" /> Exemplo de campo de confirmação.</label>
-						<p class="info">Texto para mais informação</p>
+					<li class="confirm">
+						<label for="confirm" title="Confirm field"><input type="checkbox" name="confirm" id="confirm" /> Sample of confirm field.</label>
+						<p class="info">Text for more info</p>
 					</li>
 				</ol>
-				<button type="submit">Botão de enviar</button>
+				<button type="submit">Submit button</button>
 			</fieldset>
 		</form>
-		<!-- fecha form -->
+		<!-- / form -->
 
 
 	</div>
-<!-- fecha .conteudo -->
+<!-- / .page-content -->
 
 </div>
-<!-- fecha .limites -->
+<!-- / .wrapper -->
 
 
-<!-- abre scripts -->
+<!-- scripts -->
 <script src="js/libs/jquery.js"></script>
 <script src="js/libs/bxslider/bxslider.js"></script>
 <script src="js/libs/magnific-popup/magnific-popup.js"></script>
 <script src="js/main.js"></script>
-<!-- fecha scripts -->
+<!-- / scripts -->
 
 </body>
 </html>

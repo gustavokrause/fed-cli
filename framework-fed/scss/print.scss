@@ -1,23 +1,23 @@
 @charset "utf-8";
 
 /*
-  --------------
-  VERSÃO PARA IMPRESSÃO
-  --------------
+	--------------
+	PRINT VERSION
+	--------------
 */
 
 
-@import "elementos"; // biblioteca de classes com estilos gerais
+@import "elements"; // class library with main styles.
 
 
 /*
-  --------------
-  ELEMENTOS, ESTRUTURA e CLASSES
-  --------------
+	--------------
+	ELEMENTS, STRUCTURE and CLASS
+	--------------
 */
 
 
-/* ------- ELEMENTOS ------- */
+/* ------- ELEMENTS ------- */
 * { background: transparent !important; text-shadow: none !important; color: black !important; }
 body { font-size: 11pt; }
 
@@ -34,9 +34,9 @@ a[href]:after { content: " (" attr(href) ")"; }
 abbr[title]:after { content: " (" attr(title) ")"; }
 
 
-/* ------- ESTRUTURA ------- */
-.topo, .coluna1, .rodape { display: none; }
+/* ------- STRUCTURE ------- */
+.page-header, .sidebar, .page-footer { display: none; }
 
 
-/* ------- CLASSES ------- */
-.paginacao, .popup { display: none; }
+/* ------- CLASS ------- */
+.pagination, .popup { display: none; }

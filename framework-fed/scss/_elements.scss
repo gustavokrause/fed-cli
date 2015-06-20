@@ -2,28 +2,28 @@
 
 //
 // --------------
-// BIBLIOTECA DE CLASSES
+// CLASS LIBRARY
 // --------------
 //
 
 
-// ------- PALETA DE CORES -------
-$cor_textos: #000; // textos de conteúdo
-$cor_body: #fff; // cor do fundo do site
-$tamanho_textos: 12; // tamanho da fonte: 12px
-$degub: true; // mostra media query
+// ------- COLOR PALETTE -------
+$text_color: #000; // content text
+$body_color: #fff; // website background color
+$text_size: 12; // font size: 12px
+$degub: true; // shows media query
 
 
-// ------- CLASSES E MIXINS -------
+// ------- CLASS AND MIXINS -------
 
 
-	// conversão de font-size
+	// font-size conversion
 	@function em($size) {
-		@return #{$size / $tamanho_textos}em;
+		@return #{$size / $text_size}em;
 	}
 
 
-	// oculta texto
+	// text hide
 	@mixin th { font: 0/0 a !important; color: transparent !important; }
 
 	// image replacement
@@ -38,12 +38,12 @@ $degub: true; // mostra media query
 
 		@if $rpl != false { @include th; }
 	}
-	// .imagem-replace-exemplo { @include ir('imagem-usuario.png', rpl, 50px, 50px, block); }
-	// .imagem-replace-exemplo { @include ir('imagem-usuario.png', true, true, true, true); }
-	// .imagem-replace-exemplo { @include ir('imagem-usuario.png', true, true, true); }
+	// .image-replace-sample { @include ir('usuario.png', rpl, 50px, 50px, block); }
+	// .image-replace-sample { @include ir('usuario.png', true, true, true, true); }
+	// .image-replace-sample { @include ir('usuario.png', true, true, true); }
 
 
-	// quebra texto em linhas (palavras grandes)
+	// wrap text on lines (large words)
 	@mixin wrap {
 		text-wrap: wrap;
 		white-space: pre-wrap;
@@ -52,16 +52,16 @@ $degub: true; // mostra media query
 	}
 
 
-	// transition para todas propriedades
-	@mixin transition($propriedades:all,$tempo:.2s) {
-		-webkit-transition: $propriedades $tempo ease;
-		-moz-transition: $propriedades $tempo ease;
-		-ms-transition: $propriedades $tempo ease;
-		-o-transition: $propriedades $tempo ease;
-		transition: $propriedades $tempo ease;
+	// transition
+	@mixin transition($properties:all,$time:.2s) {
+		-webkit-transition: $properties $time ease;
+		-moz-transition: $properties $time ease;
+		-ms-transition: $properties $time ease;
+		-o-transition: $properties $time ease;
+		transition: $properties $time ease;
 	}
 
-	// @include transtion('opacity,color,background-color',5s);
+	// @include transtion('opacity, color, background-color', 5s);
 	// @include transtion;
 
 
@@ -73,7 +73,7 @@ $degub: true; // mostra media query
 	}
 
 
-	// reset espaçamento entre inline-block;
+	// reset spaces between inline-block;
 	// container
 	@mixin dibc {
 		font-size: 0px;
@@ -88,11 +88,11 @@ $degub: true; // mostra media query
 		letter-spacing: normal;
 		word-spacing: normal;
 		vertical-align: top;
-		font-size: #{$tamanho_textos + 'px'};
+		font-size: #{$text_size + 'px'};
 	}
 
 
-	// gradiente
+	// gradient
 	@mixin grad($color1,$color2) {
 		background: $color1; /* Old browsers */
 		background: -moz-linear-gradient(top, $color1 0%, $color2 100%); /* FF3.6+ */

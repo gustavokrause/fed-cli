@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/*
+	Client: 
+	Project: 
+
+	--------------
+	CODE STANDARD - Frameworks FED v6
+	--------------
+
+	Our projects are developed with a code standard.
+	More info about it: www.frontenddevelopment.com.br and www.webstandards.blog.br
+*/
+
+
+@import "fonts"; // webfonts styles
+@import "elements"; // class library with main styles
+// js libs
+@import "../js/libs/bxslider/bxslider.css"; // bxslider styles
+@import "../js/libs/magnific-popup/magnific-popup.scss"; // magnific-popup styles
+// pages styles
+@import "pages.css"; // specific pages styles
+
+
+/*
+	--------------
+	ELEMENTS and CLASS
+	--------------
+*/
+
+
+/* ------- ELEMENTS ------- */
+
+	// reset
+	@import "reset";
+
+	html { font: 100% Arial, Helvetica, sans-serif; color: $text_color; }
+	body { background-color: $body_color; font-size: #{$text_size/16}em; }
+
+	// elements
+	a {
+		&:hover {
+		}
+	}
+
+	h1, h2, h3 {}
+
+	// debug
+	@if $degub != false {
+		body:before { position: absolute; right: 0; bottom: 0; z-index: 11; padding: 5px; box-shadow: rgba(255,0,0,.3) -1px -1px 1px; background: rgba(255,255,255,.5); font-size: em(16); font-family: monospace; }
+	}
+
+
+	// form
+	@import "form";
+
+
+/* ------- CLASS ------- */
+
+	@if $degub != false {
+		.wrapper { background-color: rgba(255,0,0,.1); }
+	}
+
+	// dev
+	.hide { display: none; }
+
+	// popup - mfp
+	.popup { position: relative; max-width: 500px; margin: 0 auto; background-color: #fff;
+		// close button
+		button.mfp-close { top: 10px; right: 10px;
+			&:hover {}
+		}
+		> section { padding: 20px;
+			header { margin-bottom: 10px; }
+		}
+	} // .popup
+
+	// buttons
+	.btn { display: inline-block; text-decoration: none;
+		&:hover {
+		}
+	} // .btn
+	// button.btn::-moz-focus-inner { border: 0; padding: 0; }
+
+	// pagination
+	.pagination {
+		li { display: inline-block;
+			a[rel="prev"], a[rel="next"] {
+				&:hover {
+				}
+			} // a
+		} // li
+	} // .pagination
+
+	// gallery
+	.bx-wrapper {
+		border: 1px solid red;
+		// bxslider reset
+		.bx-viewport { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: none; left: auto; background: transparent; }
+	}
+
+
+/*
+	--------------
+	STRUCTURE
+	--------------
+*/
+
+
+/* ------- PAGE HEADER ------- */
+.page-header {
+} // .page-header
+
+
+/* ------- PAGE CONTENT ------- */
+.page-content {
+
+	/* main-content */
+	.main-content {
+	} // .main-content
+
+	/* sidebar */
+	.sidebar {
+	} //.sidebar
+
+} // .page-content
+
+
+/* ------- PAGE FOOTER ------- */
+.page-footer {
+} // .page-footer
