@@ -5,22 +5,22 @@
 */
 
 
-// abrePopup('#sua-popup');
-function abrePopup(elemento) {
+// openPopup('#your-popup');
+function openPopup(element) {
 	$.magnificPopup.open({
 			items: {
-				src: elemento
+				src: element
 			},
-			tClose: 'Fechar Popup',
-			closeMarkup: '<button title="%title%" class="mfp-close">fechar</button>',
+			tClose: 'Close Popup',
+			closeMarkup: '<button title="%title%" class="mfp-close">close</button>',
 			midClick: true,
 			type: 'inline'
 	});
 }
 
-	// abre popups a partir do rel=subsection e href
+	// open popups from rel=subsection and href
 	$('[rel="subsection"]').on('click', function () {
-		abrePopup($(this).attr('href'));
+		openPopup($(this).attr('href'));
 		return false;
 	});
 
@@ -30,18 +30,10 @@ $(document).ready(function(){
 
 /*
 	--------------
-	DEFINICOES GERAIS
+	MAIN
 	--------------
 */
 
-
-
-});
-
-
-$(window).load(function(){
-
-	// monta galeria apos carregar a pagina
-	$('ul.galeria').bxSlider();
+	$('ul.gallery').bxSlider();
 
 });
