@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 /*
-	Client: 
-	Project: 
+	Client:
+	Project:
 
 	--------------
 	CODE STANDARD - Frameworks FED v6
@@ -16,8 +16,7 @@
 @import "fonts"; // webfonts styles
 @import "elements"; // class library with main styles
 // js libs
-@import "../js/libs/bxslider/bxslider.css"; // bxslider styles
-@import "../js/libs/magnific-popup/magnific-popup.scss"; // magnific-popup styles
+    // put it here...
 // pages styles
 @import "pages.css"; // specific pages styles
 
@@ -64,10 +63,10 @@
 	// dev
 	.hide { display: none; }
 
-	// popup - mfp
+	// popup
 	.popup { position: relative; max-width: 500px; margin: 0 auto; background-color: #fff;
 		// close button
-		button.mfp-close { top: 10px; right: 10px;
+		button { top: 10px; right: 10px;
 			&:hover {}
 		}
 		> section { padding: 20px;
@@ -93,12 +92,7 @@
 	} // .pagination
 
 	// gallery
-	.bx-wrapper {
-		border: 1px solid red;
-		// bxslider reset
-		.bx-viewport { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: none; left: auto; background: transparent; }
-	}
-
+    // ...
 
 /*
 	--------------

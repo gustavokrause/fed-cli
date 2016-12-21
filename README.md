@@ -66,10 +66,9 @@ SCSS overview
 		<td colspan="4">_elements.scss</td>
 	</tr>
 	<tr>
-		<td>bxslider (css)</td>
-		<td rowspan="5">desktop-pages.scss</td>
+		<td rowspan="4">desktop-pages.scss</td>
 		<td>tablet-pages.scss</td>
-		<td rowspan="5">mobile-pages.scss</td>
+		<td rowspan="4">mobile-pages.scss</td>
 	</tr>
 	<tr>
 		<td>magnific-popup.scss</td>
