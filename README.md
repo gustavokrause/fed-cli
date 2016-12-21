@@ -8,26 +8,20 @@ Compass - http://compass-style.org/install/
 
 ### libs
 
-[jQuery](http://www.jquery.com), [bxSlider](http://www.bxslider.com) and [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/).
-
+Empty.
 
 Files
 --------------
 
 <pre>
-css
-	fonts
-images
+/css
+	/fonts
+/images
 	user.png
-js
-	libs
-		bxslider
-			...
-		magnific-popup
-			...
-		jquery.js
+/js
+	/libs
 	main.js
-scss
+/scss
 	_elements.scss
 	_fonts.scss
 	_form.scss
