@@ -47,56 +47,53 @@ SCSS overview
 --------------
 
 <table>
-	<caption>
-		SCSS files organization to CSS output.
-	</caption>
-	<tr>
-		<td colspan="4">SCSS</td>
-	</tr>
-	<tr>
-		<th>main.scss</th>
-		<th rowspan="2">desktop.scss</th>
-		<th rowspan="2">tablet.scss</th>
-		<th rowspan="2">mobile.scss</th>
-	</tr>
-	<tr>
-		<td>_fonts.scss</td>
-	</tr>
-	<tr>
-		<td colspan="4">_elements.scss</td>
-	</tr>
-	<tr>
-		<td rowspan="4">desktop-pages.scss</td>
-		<td>tablet-pages.scss</td>
-		<td rowspan="4">mobile-pages.scss</td>
-	</tr>
-	<tr>
-		<td>magnific-popup.scss</td>
-		<td>_tablet-portrait.scss</td>
-	</tr>
-	<tr>
-		<td>_reset.scss</td>
-		<td rowspan="3">_tablet-landscape.scss</td>
-	</tr>
-	<tr>
-		<td>_form.scss</td>
-	</tr>
-	<tr>
-		<td>pages.scss</td>
-	</tr>
-	<tr>
-		<td colspan="4">CSS OUTPUT</td>
-	</tr>
-	<tr>
-		<th>main.css</th>
-		<th>desktop.css</th>
-		<th>tablet.css</th>
-		<th>mobile.css</th>
-	</tr>
-	<tr>
-		<td>pages.css</td>
-		<td>desktop-pages.css</td>
-		<td>tablet-pages.css</td>
-		<td>mobile-pages.css</td>
-	</tr>
+  <caption>
+    SCSS files organization to CSS output.
+  </caption>
+  <tr>
+    <td colspan="4">SCSS</td>
+  </tr>
+  <tr>
+    <th>main.scss</th>
+    <th rowspan="2">desktop.scss</th>
+    <th rowspan="2">tablet.scss</th>
+    <th rowspan="2">mobile.scss</th>
+  </tr>
+  <tr>
+    <td>_fonts.scss</td>
+  </tr>
+  <tr>
+    <td colspan="4">_elements.scss</td>
+  </tr>
+
+  <tr>
+    <td>_reset.scss</td>
+    <td rowspan="3">desktop-pages.scss</td>
+    <td>tablet-pages.scss</td>
+    <td rowspan="3">mobile-pages.scss</td>
+  </tr>
+  <tr>
+    <td>_form.scss</td>
+    <td>_tablet-portrait.scss</td>
+  </tr>
+  <tr>
+    <td>pages.scss</td>
+    <td>_tablet-landscape.scss</td>
+  </tr>
+
+  <tr>
+    <td colspan="4">CSS OUTPUT</td>
+  </tr>
+  <tr>
+    <th>main.css</th>
+    <th>desktop.css</th>
+    <th>tablet.css</th>
+    <th>mobile.css</th>
+  </tr>
+  <tr>
+    <td>pages.css</td>
+    <td>desktop-pages.css</td>
+    <td>tablet-pages.css</td>
+    <td>mobile-pages.css</td>
+  </tr>
 </table>
